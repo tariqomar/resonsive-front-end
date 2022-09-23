@@ -1,0 +1,143 @@
+.sketch-container1{
+    width: 360px;
+    height: 748px;
+    
+    margin-left: 12px;
+
+}
+.sketch-container1 img{
+    width: 360px;
+    height: 748px;
+    display: block;
+  max-width: 100%;
+    /* position:absolute; */
+}
+.sketch-1  img{
+    width: 100px;
+    height: 180px;
+    margin-left: 30px;
+    margin-top: 60px;
+    display: block;
+  max-width: 100%;
+    position: absolute;
+    object-fit: fill;
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+    cursor: pointer;
+  
+    border: 1px solid  rgba(16 18 27 / 40%); 
+    background-color:  rgba(16 18 27 / 40%); 
+    background-color:  rgb(146 151 179 / 13%);
+    border-radius: 15px;
+}
+
+.sketch-2 img{
+    width: 75px;
+    height: 180px;
+    margin-left: 136px;
+    margin-top: 60px;
+    display: block;
+  max-width: 100%;
+    position: absolute;
+    object-fit: fill;
+ box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+  cursor: pointer;
+
+  border: 1px solid  rgba(16 18 27 / 40%); 
+  background-color:  rgba(16 18 27 / 40%); 
+  background-color:  rgb(146 151 179 / 13%);
+  border-radius: 15px;
+}
+.sketch-3 img{
+    width: 125px;
+    height: 180px;
+    margin-left: 215px;
+    margin-top: 60px;
+    position: absolute;
+    object-fit: fill;
+    display: block;
+  max-width: 100%;
+   
+ box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+  cursor: pointer;
+
+  border: 1px solid  rgba(16 18 27 / 40%); 
+  background-color:  rgba(16 18 27 / 40%); 
+  background-color:  rgb(146 151 179 / 13%);
+  border-radius: 15px;
+}
+.sketch-4 img{
+    width: 315px;
+    height: 170px;
+    margin-left: 30px;
+    margin-top: 260px;
+    position: absolute;
+    object-fit: fill;
+    display: block;
+  max-width: 100%;
+    /* border: r; */
+ box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+  cursor: pointer;
+
+  border: 1px solid  rgba(16 18 27 / 40%); 
+  background-color:  rgba(16 18 27 / 40%); 
+  background-color:  rgb(146 151 179 / 13%);
+  border-radius: 15px;
+}
+.sketch-5 img{
+    width: 135px;
+    height: 145px;
+    margin-left: 30px;
+    margin-top: 450px;
+    position: absolute;
+    object-fit: fill;
+    display: block;
+  max-width: 100%;
+ box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+  cursor: pointer;
+
+  border: 1px solid  rgba(16 18 27 / 40%); 
+  background-color:  rgba(16 18 27 / 40%); 
+  background-color:  rgb(146 151 179 / 13%);
+  border-radius: 15px;
+}
+.sketch-6 img{
+    width: 170px;
+    height: 260px;
+    margin-left: 172px;
+    margin-top: 450px;
+    position: absolute;
+    object-fit: fill;
+    display: block;
+    max-width: 100%;
+ box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+  cursor: pointer;
+
+  border: 1px solid  rgba(16 18 27 / 40%); 
+  background-color:  rgba(16 18 27 / 40%); 
+  background-color:  rgb(146 151 179 / 13%);
+  border-radius: 15px;
+}
+.sketch-7 img{
+    width: 135px;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 620px;
+    position: absolute;
+    object-fit: fill;
+    display: block;
+  max-width: 100%;
+   
+ box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+  cursor: pointer;
+
+  border: 1px solid  rgba(16 18 27 / 40%); 
+  background-color:  rgba(16 18 27 / 40%); 
+  background-color:  rgb(146 151 179 / 13%);
+  border-radius: 15px;
+}
+
+
+
+#like-button-skitch{
+  margin-top: -20px;
+}

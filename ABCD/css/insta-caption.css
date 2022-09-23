@@ -1,0 +1,346 @@
+.container-insta {
+    width: 400px;
+    font-family: Arial;
+    /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5); */
+    width: 100%; 
+    text-align: center; 
+    /* margin: 10px 0 20px; */
+    background-color: inherit;
+   
+    
+  }
+  .username-insta {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 20px;
+    border-bottom: 1px solid grey;
+    width: 100%; 
+    text-align: center; 
+    margin: 10px 0 20px;
+    background-color: inherit;
+    
+  }
+  .username-insta img {
+    height: 35px;
+    border-radius: 100%;
+    
+  }
+  .username-insta span {
+    vertical-align: top;
+    padding-left: 8px;
+    font-size: 15px;
+ 
+  }
+  .username-left{
+    float: left;
+    margin-left: -15px;
+  }
+  .view-all-comments-left{
+    float: left;
+    margin-left: -15px;
+  }
+  .add-comment-insta{
+    float: left;
+    margin-left: 8px;
+    /* margin-left: -80px; */
+    display: block;
+  }
+  .add-comment-img img{
+    /* display: block; */
+    float: left;
+    margin-top: 2px;
+    right: -10px;
+    
+  
+  }
+  .insta-comment-date{
+    /* display: block; */
+    /* margin-top: 40px; */
+    margin-left: -15px;
+    float: left;
+  }
+  .username-insta i {
+    float: right;
+    padding-top: 10px;
+  }
+  .image-insta {
+    width: 100%;
+   
+  }
+  #heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    opacity: 0;
+    font-size: 0px;
+  }
+  @keyframes likeheart {
+    50% {
+      opacity: 0.9;
+      font-size: 40px;
+    }
+    100% {
+      opacity: 0;
+      font-size: 0;
+    }
+  }
+  .options-insta {
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    height: 80px;
+    max-width: 310px;
+    margin: auto;
+    justify-items: center;
+    margin-top: 40px;
+    margin-left: -20px;
+    margin-top: -10px;
+    
+  }
+  .options-insta i {
+    padding: 5px;
+    cursor: pointer;
+  }
+  .red-insta {
+    color: red;
+  }
+  .right-insta {
+    float: right;
+  }
+  .info-insta {
+    padding-left: 10px;
+    /* margin-left: -25px; */
+  }
+  .info-insta img {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    /* change the color around the small profil pic */
+    border: 3px solid white;
+    margin-left: -28px;
+    
+  }
+  .info-insta img:first-child {
+    position: relative;
+    z-index: 4;
+  }
+  .info-insta img:nth-child(2) {
+    position: relative;
+    margin-left: -15px;
+    z-index: 3;
+  }
+  .info-insta img:nth-child(3) {
+    position: relative;
+    margin-left: -15px;
+    z-index: 2;
+  }
+
+  /* ========================================================= */
+  .container-insta-food {
+    width: 300px;
+    font-family: Arial;
+    /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5); */
+    /* width: 100%;  */
+    text-align: center; 
+    /* margin: 10px 0 20px; */
+    background-color: inherit;
+   
+    
+  }
+  .card-body2-food{
+    /* margin-top: -50px; */
+    /* width: 100%;  */
+    width: 340px;
+    text-align: center; 
+    /* margin: 10px 0 20px; */
+    background-color: inherit;
+    /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5); 
+    border: navajowhite; */
+    background: #e1e1eb;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 4px;
+    padding: 20px 18px;
+    /* box-shadow: 10px 10px 13px -2px rgba(134, 130, 134, 0.5), -6px -6px 8px 2px rgba(253, 253, 253, 0.44); */
+    
+}
+   #skitch-comment-box{
+     position: relative;
+     left: 30px;
+   }
+  .info-insta-food {
+    padding-left: 10px;
+    
+    /* margin-left: -25px; */
+  }
+  .info-insta-food img {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    /* change the color around the small profil pic */
+    /* border: 3px solid white; */
+    margin-left:-30px;
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    
+  }
+  .insta-food-like-pic1{
+    margin-right: 10px;
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+  }
+  .insta-food-like-pic2{
+    margin-right: 10px;
+    /* position: absolute; */
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+  }
+  .insta-food-like-pic3{
+    margin-right: 10px;
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+  }
+  .info-insta-food img:first-child {
+    position: relative;
+    z-index: 4;
+  }
+  .info-insta-food img:nth-child(2) {
+    position: relative;
+    margin-left: -15px;
+    z-index: 3;
+  }
+  .info-insta-food img:nth-child(3) {
+    position: relative;
+    margin-left: -15px;
+    z-index: 2;
+  }
+  .add-comment-insta-food{
+    float: left;
+    margin-left: 8px;
+    margin-top: 5px;
+    position: absolute;
+    /* margin-left: -80px; */
+    display: block;
+  }
+  .insta-comment-date-food{
+    margin-left: -160px;
+    float: left;
+    margin-top: 8px;
+    position: absolute;
+    /* margin-bottom: 0px; */
+  }
+  #liked-by-food{
+    margin-left: -5px;
+  }
+    /* ========================================================= */
+    .container-insta-ekko {
+      width: 300px;
+      font-family: Arial;
+      /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5); */
+      /* width: 100%;  */
+      text-align: center; 
+      /* margin: 10px 0 20px; */
+      background-color: inherit;
+     
+      
+    }
+    .card-body2-ekko{
+      /* margin-top: -50px; */
+      /* width: 100%;  */
+      width: 340px;
+      text-align: center; 
+      /* margin: 10px 0 20px; */
+      background-color: inherit;
+      /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.5); 
+      border: navajowhite; */
+      background: #e1e1eb;
+      border: 1px solid rgba(255, 255, 255, 0.20);
+      border-radius: 4px;
+      padding: 20px 18px;
+      /* box-shadow: 10px 10px 13px -2px rgba(134, 130, 134, 0.5), -6px -6px 8px 2px rgba(253, 253, 253, 0.44); */
+      
+  }
+    .info-insta-ekko {
+      padding-left: 10px;
+      
+      /* margin-left: -25px; */
+    }
+    .info-insta-ekko img {
+      height: 20px;
+      width: 20px;
+      border-radius: 100%;
+      /* change the color around the small profil pic */
+      /* border: 3px solid white; */
+      margin-left:-30px;
+      box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+      
+    }
+    .insta-ekko-like-pic1{
+      margin-right: 10px;
+      position: absolute;
+      box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    }
+    .insta-ekko-like-pic2{
+      margin-right: 10px;
+      position: absolute;
+      box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    }
+    .insta-ekko-like-pic3{
+      margin-right: 40px;
+      position: absolute;
+      box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    }
+    .info-insta-ekko img:first-child {
+      position: relative;
+      z-index: 4;
+     
+    }
+    .info-insta-ekko img:nth-child(2) {
+      position: relative;
+      margin-left: -15px;
+      z-index: 3;
+    }
+    .info-insta-ekko img:nth-child(3) {
+      position: relative;
+      margin-left: -15px;
+      z-index: 2;
+    }
+    .add-comment-insta-ekko{
+      float: left;
+      margin-left: 8px;
+      margin-top: 5px;
+      position: absolute;
+      /* margin-left: -80px; */
+      display: block;
+    }
+    .insta-comment-date-ekko{
+      margin-left: -160px;
+      float: left;
+      margin-top: 8px;
+      position: absolute;
+      /* margin-bottom: 0px; */
+    }
+    #liked-by-ekko{
+      margin-left: -35px;
+      position: relative;
+    }
+  /* ================================================================= */
+  input .add-comment-insta{
+    position: relative;
+    top: -8px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    height: 80px;
+    max-width: 310px;
+    margin: auto;
+    justify-items: center;
+    margin-top: 20px;
+    
+    
+   }
+   input:focus::placeholder {
+    color: transparent;
+  } 
+  

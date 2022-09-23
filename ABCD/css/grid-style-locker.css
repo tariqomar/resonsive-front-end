@@ -1,0 +1,147 @@
+/* .grid-style-locker{
+  margin-left: -400px;
+  /* width: 10px; */
+  /* margin-top: -40px; */
+  /* object-fit: fill; */
+/* } */
+/* .grid-style-locker .grid {
+     display: grid; 
+  
+} */
+
+/**
+ * Grid Layout
+ * Width = (width_of_grid - (gutters + padding)) / no_of_cols
+ * Height = 1270 * width / 1000
+ */
+ /* .grid-style-locker {
+  --width: calc((10vw - 3rem) / 2);
+  --height: calc(10670 * var(--width) / 10000);
+ 
+  
+} */
+
+/* .layout-grid-style-locker {
+  grid-gap: 1rem;
+  grid-auto-flow: dense; */
+  /* grid-template-columns: repeat(2, var(--width)); */
+  /* grid-auto-rows: var(--height); */
+/* }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .grid-style-locker  { --width: calc((100vw - 4rem) / 3); }
+  .layout-grid-style-locker { grid-template-columns: repeat(3, var(--width)); }
+}
+
+@media screen and (min-width: 60em) {
+    .grid-style-locker { --width: calc((60em - 5rem) / 4); }
+  .layout-grid-style-locker { grid-template-columns: repeat(4, var(--width)); }
+} */
+
+/**
+ * Col and row spans
+ */
+/* .wide-2 { grid-column-end: span 2; }
+.tall-2 { grid-row-end: span 2; }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .wide-3-m { grid-column-end: span 3; }
+} */
+
+
+.zoom {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+.zoom:hover,
+.zoom:focus { transform: scale(1.05); }
+.zoom:active { transform: scale(1); } 
+
+
+.container-grid-locker img{
+    width: 150px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+    object-fit: fill;
+    text-shadow: -1px 0 1px #684da3, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+}
+.container-grid-locker-1 img{
+    width: 175px;
+    height: 280px;
+    margin-left: 175px;
+    margin-top: 20px;
+    background-color: blue;
+    position: absolute;
+    object-fit: fill;
+    text-shadow: -1px 0 1px #684da3, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+}
+.container-grid-locker-2 img{
+    width: 150px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 233px;
+    background-color: blue;
+    position: absolute;
+    object-fit: fill;
+    text-shadow: -1px 0 1px #684da3, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+}
+.container-grid-locker-3 img{
+    width: 175px;
+    height: 250px;
+    margin-left: 175px;
+    margin-top: 315px;
+    background-color: blue;
+    position: absolute;
+    object-fit: fill;
+    text-shadow: -1px 0 1px #684da3, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+}
+
+.container-grid-locker-4 img{
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 455px;
+    background-color: blue;
+    position: absolute;
+    object-fit: fill;
+    text-shadow: -1px 0 1px #684da3, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+}
+.container-grid-locker-5 img{
+    width: 170px;
+    height: 150px;
+    margin-left: 180px;
+    margin-top: 580px;
+    background-color: blue;
+    position: absolute;
+    object-fit: fill;
+    text-shadow: -1px 0 1px #684da3, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+}
+.container-grid-locker-6 img{
+    width: 160px;
+    height: 110px;
+    margin-left: 10px;
+    margin-top: 620px;
+    background-color: blue;
+    position: absolute;
+    object-fit: fill;
+    text-shadow: -1px 0 1px #684da3, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+}

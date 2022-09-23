@@ -1,0 +1,102 @@
+@media screen and (min-width:1280px){
+.side-menu-left {
+    position: absolute;
+    z-index: 10;
+    left: 70px;
+    top: 0;
+    width: 60px;
+    height: 670px;
+    background: transparent;
+    transition: 0.3s;
+    overflow: hidden;
+    margin-top: 305px;
+    /* border: 1px solid  rgba(16 18 27 / 40%); 
+background-color:  rgba(16 18 27 / 40%); 
+background-color:  rgb(146 151 179 / 13%); */
+    /* background: #e1e1eb;  */
+    
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    /* box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712); */
+    
+  }
+  .side-menu-left:hover {
+    width: 160px;
+   
+    /* box-shadow: 4px 4px 4px #CFDBE8, 8px 8px 8px #CFDBE8; */
+  }
+  .side-menu-left ul {
+    position: relative;
+    width: 160px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    list-style: none;
+    
+    
+  }
+  .side-menu-left ul li {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 60px auto;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: transform 0.1s;
+    user-select: none;
+    
+  }
+  .side-menu-left ul li:hover {
+    opacity: 1;
+    
+  }
+  
+  .side-menu-left ul li:active {
+    transform: scale(0.9);
+    
+  }
+  .side-menu-left ul li i {
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    
+    border: 1px solid  rgba(16 18 27 / 40%); 
+background-color:  rgba(16 18 27 / 40%); 
+background-color:  rgb(146 151 179 / 13%);
+
+    
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+  }
+  .side-menu-left ul li p {
+    color: gray;
+    font-family: sans-serif;
+    align-self: center;
+    background-color: #354148;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    
+  }
+  
+  .material-icons.md-light {
+    background-color: darkblue;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    
+   
+    
+  }
+}
+@media screen and (max-width:796px){
+    .side-menu-left{
+        /* display: none; */
+    }
+}

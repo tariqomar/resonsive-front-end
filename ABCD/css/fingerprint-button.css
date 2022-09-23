@@ -1,0 +1,50 @@
+.wrapper-fingerprint{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+ 
+  }
+  .fingerprint{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    /* left: 150%;
+    top:50%; */
+    margin-left: 450px;
+    margin-bottom: 110px;
+    transform: translate(-50%,-50%) scale(1);
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background: rgb(228, 232, 236);
+    background: linear-gradient(45deg, rgb(228, 232, 236) 0%, rgb(234 234 234) 100%); 
+    box-shadow: -2px -7px 10px #f1f1f1, 4px 6px 10px #d4d7da;
+    transition: all .3s;
+  }
+  .fingerprint:active{
+    background:  rgb(218, 221, 224);
+    background: linear-gradient(45deg, rgb(218, 221, 224) 0%, rgb(241, 241, 241) 100%);
+    box-shadow: 
+      -2px -7px 10px #d4d7da, 
+      4px 6px 10px #f1f1f1,
+      inset -2px -7px 10px #f1f1f1, 
+      inset 4px 6px 10px #d4d7da;
+    transition: all .3s;
+    transform: translate(-50%,-50%) scale(.95);
+  }
+  .fingerprint i{
+    font-size: 40px;
+    background: linear-gradient(-45deg, gray 0%, lightgray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .3s;
+  }
+  .fingerprint:active i{
+    transform: scale(.9);
+    transition: all .3s;
+  }
+  

@@ -1,0 +1,262 @@
+.profile {
+    width: 45px;
+    margin-left: 69px;
+    
+}
+
+
+/* Visa Card */
+
+.personal_card {
+    font-size: .78rem;
+    font-weight: 200;
+    color: #a1a1a4;
+    margin: 0 0 19px 28px;
+    
+}
+
+.visa_card_container {
+    display: grid;
+    /* position: absolute; */
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 50px 60px 50px;
+    max-width: 310px;
+    margin: auto;
+    background: #e1e1eb;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 4px;
+    padding: 20px 18px;
+    box-shadow: 10px 10px 13px -2px rgba(134, 130, 134, 0.5), -6px -6px 8px 2px rgba(253, 253, 253, 0.44);
+    grid-template-areas: "balance visa""cardnumber cardnumber""holder expiry"
+}
+
+.avail_balance,
+.numeric_balance {
+    grid-area: balance;
+}
+
+.visa_icon {
+    width: 60px;
+}
+
+.numeric_balance {
+    margin-top: 25px;
+}
+
+.numeric_balance,
+.numeric_balance-2,
+.card_number {
+    font-size: 1.1rem;
+    font-weight: 500;
+    -webkit-text-stroke: .2px;
+}
+
+.numeric_balance,
+.numeric_balance-2,
+.card_number,
+.owner_name,
+.expiry_date,
+.income_text,
+.expense_text {
+    color: #464646;
+}
+
+.avail_balance,
+.holder_text,
+.expiry_text,
+.button_text {
+    font-size: .53rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #a1a1a4;
+    padding-top: 4px;
+}
+
+.visa_icon {
+    grid-area: visa;
+}
+
+.card_number {
+    grid-area: cardnumber;
+    letter-spacing: 2.1px;
+}
+
+.hidden_pin {
+    -webkit-text-stroke: 1.4px;
+    letter-spacing: 5px;
+}
+
+.holder_text,
+.owner_name {
+    grid-area: holder;
+}
+
+.expiry_text {
+    margin-right: 3.3px;
+}
+
+.expiry_text,
+.expiry_date {
+    display: grid;
+    grid-area: expiry;
+    justify-content: end;
+}
+
+.owner_name,
+.expiry_date {
+    margin-top: 23px;
+    font-size: .77rem;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    -webkit-text-stroke: .2px;
+    line-height: 2;
+}
+
+
+/* Btn section */
+
+.btn_container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    height: 80px;
+    max-width: 310px;
+    margin: auto;
+    justify-items: center;
+    margin-top: 40px;
+}
+
+
+/* round button style */
+
+.neumorph_button {
+    height: 43px;
+    width: 43px;
+    border-radius: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+    
+}
+
+.neumorph_button:active {
+    box-shadow: inset 3px 3px 7px rgba(114, 114, 114, 0.74), inset -3px -3px 7px #FFFFFF;
+}
+
+.neumorph_button i,
+.neumorph_square-button i {
+    transform: scaleX(-1);
+    font-size: 20px;
+    
+    
+}
+
+
+/* Button icon colors */
+
+.la-search,
+.income_balance {
+    color: #1ebf5d;
+}
+
+.la-sliders-h {
+    color: #3c6fff;
+}
+
+.la-exchange-alt,
+.expense_balance {
+    color: #e5423b;
+}
+
+.la-plus-circle {
+    color: #ec8c23;
+}
+
+
+/* make icons bolder */
+
+.la-search,
+.la-sliders-h,
+.la-exchange-alt,
+.la-plus-circle {
+    -webkit-text-stroke: .2px;
+}
+
+
+/* Button description */
+
+.button_text {
+    font-size: .6rem;
+}
+
+
+/* Balance Container */
+
+.balance_container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: repeat(2, 50px);
+    grid-gap: 1px;
+    background: rgba(173, 171, 171, 0.149);
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 10px 10px 13px -2px rgba(134, 130, 134, 0.5), -6px -6px 8px 2px rgba(253, 253, 253, 0.44);
+    max-width: 310px;
+    margin: 25px auto 28px;
+}
+
+.balance_cell {
+    grid-row: 1/3;
+    display: grid;
+    padding: 0;
+    justify-items: center;
+}
+
+.balance_container p {
+    display: inline-block;
+}
+
+.your_balance-text {
+    padding: 4px;
+    margin-top: 10px;
+    color: #a1a1a4;
+}
+
+.your_balance-text,
+.income_text,
+.expense_text {
+    font-size: .78rem;
+}
+
+.decimal_text {
+    color: #a1a1a4;
+    font-size: .85rem;
+}
+
+.balance_cell,
+.income_cell,
+.expense_cell {
+    background: #e1e1eb;
+}
+
+.income_cell,
+.expense_cell {
+    padding-inline-start: 18px
+}
+
+.income_text,
+.expense_text {
+    -webkit-text-stroke: .25px;
+}
+
+.income_balance,
+.expense_balance {
+    font-size: .8rem;
+    padding: 5px;
+}
+
+.income_balance i,
+.expense_balance i {
+    margin-right: 2.5px;
+    -webkit-text-stroke: .40px;
+}

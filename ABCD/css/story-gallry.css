@@ -1,0 +1,125 @@
+
+
+/*Time to apply widths for accordian to work
+Width of image = 640px
+total images = 5
+so width of hovered image = 640px
+width of un-hovered image = 40px - you can set this to anything
+so total container width = 640 + 40*4 = 800px;
+default width = 800/5 = 160px;
+*/
+.story-gallry-background{
+    width: 1300px;
+    height: 430px;
+    margin-top: 130px;
+    margin-left: -20px;
+    border-radius: 20px;
+    background: #e1e1eb;
+    position: absolute;
+    z-index: -1;
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+}
+@media screen and (max-width:414px){
+    .story-gallry-background {
+          margin-left: -15px;
+          margin-top: 130px;
+          width: 340px;
+    }
+}
+
+.story-gallry{
+    /* overflow-x: scroll;
+    overflow-y: scroll;
+    white-space: nowrap; */
+    display: flex;
+    flex-direction: row;
+    /* position: absolute; */
+    margin-top: 130px;
+    margin-left: -55px;
+    left: 55px;
+    position: relative;
+    /* margin-bottom: -200px; */
+    
+    /* box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712); */
+   
+}
+@media screen and (max-width:414px){
+    .story-gallry{
+          margin-left: -35px;
+            max-width: 310px;
+       
+          /* margin-top: 150px; */
+          /* width: 550px; */
+    }
+}
+.story__pic{
+    border-radius: 14px;
+}
+#story__new{
+    width: 200px;
+    height: 400px;
+}
+#story__button{
+    margin-top: 200px;
+    margin-left: 30px;
+}
+#story__img {
+   position: absolute;
+   /* margin: auto; */
+   width: 200px;
+   height: 400px;
+   margin-left: -20px;
+   margin-top: -20px;
+   object-fit: fill;
+   z-index: -1;
+   /* opacity: 0.2; */
+   border-radius: 14px;
+}
+#story__img:hover{
+    opacity: 1;
+}
+
+#story__img-2{
+    position: absolute;
+    /* margin: auto; */
+    width: 200px;
+    height: 400px;
+    margin-left: -20px;
+    margin-top: -20px;
+    object-fit: fill;
+    z-index: -1;
+    opacity: 0.2;
+    border-radius: 14px;
+ }
+ #story__img-2:hover{
+     opacity: 1;
+ }
+
+
+#story-profil___img{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-top: -15px;
+    opacity: 1;
+}
+#story-profil___img:hover{
+    /* opacity: 0; */
+}
+#story-profil___img-2{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-top: -15px;
+    opacity:0.2;
+}
+#story-profil___img-2:hover{
+    opacity: 1;
+}
+.sotry_profil__name{
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: black;
+}
+

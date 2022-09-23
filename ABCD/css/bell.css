@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+
+
+.card-bell-4 {
+  width: 400px;
+  height: 200px;
+  background-color: transparent;
+  border-radius: 10px;
+  opacity: 1;
+ 
+  box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+ 
+}
+
+.card-2-bell-4 {
+  width: 360px;
+  height: 750px;
+  position: absolute;
+  left:80px;
+  top: 1880px;
+  /* box-shadow: 1rem 1rem 2rem rgba(54, 85, 153, 0.15), -0.5rem -0.5rem 2rem rgba(255, 255, 255, 0.7), inset 0.1rem 0.1rem 0.1rem rgba(255, 255, 255, 0.7), inset -0.1rem -0.1rem 0.1rem rgba(54, 85, 153, 0.15); */
+ 
+  box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+}
+
+
+
+
+#devlop-container{
+  color: black;
+ 
+  box-shadow:-1px 0 1px #e1e1eb, 1px 0 1px rgb(255, 255, 255); 
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+}
+
+
+
+/* @media screen and (max-width:414px){
+  .friend-request-card  {
+        display: none;
+    }
+
+}
+@media screen and (max-width:414px){
+  .friend-request-card-2  {
+        display: none;
+    }
+
+} */
+/* @media screen and (max-width:414px){
+  .container-crousle-new2 {
+        display: none;
+    }
+
+}
+@media screen and (max-width:414px){
+  .container-crousle-new {
+        display: none;
+    }
+
+} */
+
+
+/* ========================================================================  */
+
+/* ==========================================================  */
+

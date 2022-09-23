@@ -1,0 +1,35 @@
+.scroll--story{
+	/* background-color:#ccc; */
+    width: 100%;
+	overflow:hidden;
+	padding-bottom:10px;
+}
+.swipeProjet {
+    width: 100%;
+	overflow:auto;
+}
+.innerProjet {
+    position: relative;
+    width: 100%;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+/* article {
+	 background-color:#fff;
+	 padding:10px;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    margin-right: 2%;
+    vertical-align: top;
+}
+
+article img{
+	width:100%;
+} */
+
+
+
+/* ============================================================ */
+

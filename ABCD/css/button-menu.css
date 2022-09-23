@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #eee;
+  color: #444;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+  color: #444;
+} */
+
+menu {
+    margin-left: 200px;
+    margin-top: -65px;
+  height: 64px;
+  border-radius: 32px;
+  box-shadow: -6px -6px 9px 0px rgba(255, 255, 255, 0.6), 6px 6px 9px 0px rgba(0, 0, 0, 0.4);
+  text-shadow: 6px 6px 9px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  overflow: hidden;
+}
+menu ul {
+  list-style: none;
+  background: none;
+}
+menu ul li {
+  display: inline-block;
+  background: none;
+  position: relative;
+  width: 60px;
+  height: 64px;
+}
+menu ul li:after {
+  font-family: FontAwesome;
+  content: "\f101";
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  font-size: 24pt;
+  text-align: center;
+  
+}
+menu ul li.feed:after {
+  content: "";
+}
+menu ul li.user:after {
+  content: "";
+}
+menu ul li.messages:after {
+  content: "";
+  font-weight: 900;
+  
+}
+menu[state=close] {
+  width: 64px;
+  transition: all 0.2s ease-in-out;
+}
+menu[state=close] ul {
+  display: none;
+}
+menu[state=open] {
+  width: 192px;
+  transition: all 0.2s ease-in-out;
+}
+menu[state=open] ul {
+  display: block;
+}

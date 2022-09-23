@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+
+.ingred-menu-food{
+  color: #444444;
+position: relative;
+/* margin-top: 50px; */
+margin-left: -30px;
+/* display: inline; */
+  /* background: red; */
+}
+/* .ingred-menu-food h1{
+  font-size: 56px;
+  font-weight: 400;
+  font-family: 'Lobster', cursive;
+  color: #ffffff;
+  text-shadow: 0 2px #7d7d7d;
+} */
+
+.recipe-tab {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  list-style: none;
+  margin: 50px 0 0;
+  font-size: 4px;
+  padding: 0;
+  line-height: 24px;
+  overflow: hidden;
+  position: relative;
+  
+}
+.recipe-tab li {
+  border: 3px solid red;
+  padding: 10px 28px 8px;
+  background-color: transparent;
+  margin-right: 5px;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  color: red;
+}
+/*.recipe-tab a {
+  color: #009674;;
+  text-decoration: none;
+}*/
+.recipe-tab li.selected {
+  background: #FFF;
+  z-index: 2;
+  border-bottom-color: #FFF;
+}
+
+.recipe-content{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #ffffff;
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.recipe-tab li:before,
+.recipe-tab li:after {
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 44px;  
+  background-color: #FFF;
+  
+}
+.recipe-tab li:before {
+  left: -24px;
+  transform: skew(-25deg, 0deg);
+  border-left: 3px solid red;
+}
+.recipe-tab li:after {
+  right: -24px;
+  transform: skew(25deg, 0deg);
+  border-right: 3px solid red;
+}
+
+.recipe-tab li:before {
+  border-radius: 8px 0 0 0;
+}
+.recipe-tab li:after {
+  border-radius: 0 8px 0 0;
+}
+
+.recipe-tab li.selected:before,
+.recipe-tab li.selected:after{
+  background: #FFF;
+  border-bottom: 3px solid #ffffff;
+}
+
+.recipe-tab li:hover,
+.recipe-tab li:hover:before,
+.recipe-tab li:hover:after {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border-bottom-color: red;
+}
+.tabs-food{
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tabs-food:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.tabs-food .tab-food {
+  display: inline;
+  
+  
+}
+
+.tabs-food .tab-label {
+  font-size: 20px;
+  vertical-align: bottom;
+  font-family: 'Lobster', cursive;
+  /* border: 3px solid red; */
+  padding: 15px 22px 8px;
+  background-color: transparent;
+  margin-right: -9px;
+  display: inline-block;
+  position: relative;
+  z-index: 0;
+  color: red;
+}
+
+.tabs-food .tab-label:before,
+.tabs-food .tab-label:after {
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 33px;  
+  background-color: transparent;
+  
+}
+.tabs-food .tab-label:before {
+  left: -17px;
+  transform: skew(-25deg, 0deg);
+  border-left: 3px solid red;
+}
+.tabs-food .tab-label:after {
+  right: -17px;
+  transform: skew(25deg, 0deg);
+  border-right: 3px solid red;
+}
+
+.tabs-food .tab-label:before {
+  border-radius: 8px 0 0 0;
+}
+.tabs-food .tab-label:after {
+  border-radius: 0 8px 0 0;
+}
+
+.recipe-tab li.selected:before,
+.recipe-tab li.selected:after{
+  background: transparent;
+  border-bottom: 3px solid #ffffff;
+}
+
+.tabs-food .tab-food [type="radio"]:hover:checked + .tab-label,
+.tabs-food .tab-label:hover,
+.tabs-food .tab-label:hover:before,
+.tabs-food .tab-label:hover:after {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border-bottom-color: red;
+}
+
+.tabs-food .tab-food > [type="radio"] {
+  clip: rect(0 0 0 0);
+  height: 1px;
+  opacity: 0;
+  position: fixed;
+  width: 1px;
+  z-index: -1;
+}
+
+.tabs-food .tab-panel {
+  display: inline;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  height: 0;
+  width: 0;
+}
+
+.tabs-food .tab-content {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  background: white;
+  border-radius: 15px;
+  padding: 50px;
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+
+.tabs-food .tab-content h2{
+  text-align: center;
+  margin-bottom:45px;
+}
+
+.tabs-food .tab-food [type="radio"]:checked + .tab-label {
+  background: transparent;
+  border-bottom-width: 0;
+  padding-bottom: 11px;
+  z-index: 1;
+}
+
+.tabs-food .tab-food .tab-label .word-recipe{
+ display:none;
+}
+
+.tabs-food .tab-food [type="radio"]:checked + .tab-label .word-recipe{
+  display:inline;
+}
+
+.tabs-food .tab-food [type="radio"]:checked ~ .tab-panel {
+  display: inline;
+}

@@ -1,0 +1,187 @@
+/* * {
+    font-size: 16px;
+    font-family: "Lato";
+    color: white;
+  } */
+  
+  /* body {
+    background-color: #ccc;
+  }
+   */
+  /* @media print {
+    body {
+      -webkit-print-color-adjust: exact;
+    }
+  } */
+  .body-friend-request {
+    /* max-width: 1024px;
+     */
+     width: 10%;
+     /* background: transparent; */
+    /* transition: 0.3s; */
+    /* overflow: hidden; */
+    /* margin: auto; */
+    font-size: 16px;
+    font-family: "Lato";
+    color: red;
+    margin-left: 20px;
+    /* background-color: #888; */
+    margin-top: 30px;
+  }
+  /* .body-friend-request ul li:hover {
+    opacity: 1;
+    
+  }
+  .body-friend-request ul li:active {
+    transform: scale(0.9);
+    
+  }
+  .body-friend-request ul li i {
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    
+  }
+  .body-friend-request ul li p {
+    color: gray;
+    font-family: sans-serif;
+    align-self: center;
+    background-color: #354148;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    
+  }
+  .body-friend-request.md-light {
+    background-color: darkblue;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   
+    
+  } */
+  
+  
+  .title-friend-request {
+    padding: 10px;
+    color: #333;
+  }
+  
+  .suggestion-block-wrapper-friend-request {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .suggestion-card-wrapper-friend-request {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    margin: 0;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  /* @media (max-width: 1000px) {
+    .suggestion-card-wrapper-friend-request {
+      width: 33.333%;
+    }
+  }
+  @media (max-width: 700px), (max-device-width: 500px) {
+    .suggestion-card-wrapper-friend-request {
+      width: 50%;
+    }
+  }
+  @media (max-width: 500px) {
+    .suggestion-card-wrapper-friend-request {
+      width: 100%;
+    }
+  } */
+  .suggestion-card-friend-request {
+    background-color: #233446;
+  }
+  
+  .contact-header-friend-reuest {
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 1px solid #888;
+  }
+  
+  .contact-details-friend-reuest {
+    padding: 0em 1em;
+    text-align: center;
+  }
+  
+  .image-wrapper-friend-reuest {
+    width: 100%;
+    padding: 1em;
+  }
+  .image-wrapper-friend-reuest img {
+    width: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #333;
+    background-color: white;
+    padding: 1px;
+  }
+  
+  .social-wrapper-friend-reuest {
+    width: 100%;
+    display: flex;
+    /* margin-right: 35px; */
+  }
+  .social-wrapper-friend-reuest div {
+    width: 33.34%;
+    display: inline-block;
+    font-size: 12px;
+  }
+  .social-wrapper-friend-reuest div div {
+    width: 100%;
+    font-size: 12px;
+  }
+  
+  .email-friend-reuest {
+    padding: 0.5em;
+    font-size: 0.8em;
+  }
+  
+  /* .contact-footer-friend-reuest {
+    margin-top: 0.5em;
+    border-radius: 0px 0px 6px 6px;
+    display: flex;
+    justify-content: space-around;
+  } */
+  
+  /* .contact-footer-friend-reuest div.btn {
+    width: 50%;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: #333;
+    font-size: 12pt;
+  } */
+  /* .contact-footer-friend-reuest div.btn.fdiv {
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    font-size: 11pt;
+    padding-bottom: 8px;
+  } */

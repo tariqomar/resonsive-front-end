@@ -1,0 +1,61 @@
+/* body{
+    background:#fff;
+  } */
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+  @media screen and (min-width:1280px){
+    #container-digital-logo{
+        margin:0 auto;
+        margin-top:5%;
+        /* width:250px; */
+        position:absolute;
+        /* margin-right: -400px; */
+      }
+      
+      .logo{
+        position:absolute;
+        text-transform:uppercase;
+        /* font-family:helvetica; */
+        /* font-family: 'Rubik Marker Hatch', cursive; */
+        font-family: 'Rubik Dirt', cursive;
+      } 
+      .indie{
+        font-weight:bold;
+        font-size:60px; 
+        letter-spacing:18px;
+        margin-left: 480px;
+        margin-top: -60px;
+        position: absolute;
+      }
+      .layer1{
+        color:red;
+        opacity:0.8;
+        top:0;
+        left: 0;  
+        z-index:1;
+        position: absolute;
+      }
+      .layer2{
+        color:#6c7cc9;
+        opacity:1;
+        top:8px;
+        left: -5px;  
+        z-index:0;  
+        letter-spacing:18px;
+        position: absolute;  
+      }
+      /* .digital{
+        top:10px;
+        left:600px;
+        font-size:10px;
+        font-weight: normal;
+        color: rgb(160, 160, 160); 
+        letter-spacing:12px
+       
+      } */
+  }
+  @media screen and (max-width:796px){
+    #container-digital-logo {
+       display: none;
+    }
+    }
+  

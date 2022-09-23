@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap");
+.main-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    --chatbox-width: 310px;
+    --chatbox-height:120px;
+    --bot-message-color: salmon;
+    --user-message-color: #4169e1;
+    --message-font: "Sawarabi Gothic", sans-serif;
+    /* background: #e0e0e0; */
+  }
+  
+  .chat-box {
+    position: relative;
+    width: var(--chatbox-width);
+    height: var(--chatbox-height);
+    /* border: 1px solid black; */
+    /* background: white; */
+    border-radius: 10%;
+    /* box-shadow: 7px 7px 14px #c1c1c1, -7px -7px 14px #ffffff; */
+  }
+  
+  .chatbox__top {
+    position: absolute;
+    width: 10%;
+    height: 8%;
+    left: 5%;
+    top: 1%;
+  }
+  
+  .control {
+    position: absolute;
+    width: 14%;
+    height: 44%;
+    border-radius: 50%;
+  }
+  
+  .minimize {
+    background: orange;
+    left: 10%;
+    top: 28%;
+  }
+  
+  .chat-box__main {
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    border: 1px solid black;
+    left: 5%;
+    top: 35%;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-size: 12px;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+    
+  }
+  
+  
+  .chat-box__bottom {
+    width: 310px;
+    height: 120;
+    position: relative;
+    /* bottom: 5%; */
+  }
+  
+  .chat-box__bottom__textbox {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    left: 23%;
+    outline: none;
+    /* bottom: 5%; */
+    top:25%;
+    border: 1px solid rgb(7, 5, 5);
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    /* background: rgba(0,0,0,.5); */
+  }
+  
+  .chat-box__bottom__textbox input {
+    position: absolute;
+    width: 90%;
+    height: 80%;
+    left: 5%;
+    top: 10%;
+    outline: none;
+    border: none;
+    background: none;
+    color: rgb(8, 1, 1);
+  }
+  
+  ::placeholder {
+    color: rgb(6, 3, 3);
+  }
+  
+  .chat-box__bottom__emoji-keyboard {
+    position: absolute;
+    width: 10%;
+    height: 80%;
+    right:95%;
+    top: 5%;
+    text-align: center;
+    font-size: 150%;
+    /* background: rgba(0,0,0,.5); */
+    border-radius: 50%;
+  }
+  
+  .emoji-box {
+    position: absolute;
+    width: 175px;
+    height: 125px;
+    overflow: scroll;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-radius: 8%;
+    /* background: rgba(0,0,0,.5); */
+    bottom: -125px;
+    right: 35%;
+  }
+  
+  .emoji-box__emoji {
+    box-sizing: border-box;
+    width: 10%;
+    height: 14%;
+    margin: 5%;
+    text-align: center;
+    font-size: 130%;
+    cursor: pointer;
+  } 
+  
+  .emoji-box__emoji:hover {
+    transform: scale(1.5);
+    transition: 350ms;
+  }
+  
+  
+  .chat-bubble--user {
+    position: relative;
+    font-family: var(--message-font);
+    background: var(--user-message-color);
+    padding: 5%;
+    max-width: 70%;
+    word-wrap: break-word;
+    opacity: 0.8;
+    border-radius: 10% 10% 0 10% / 50% 50% 0 50%;
+    padding: 5%;
+    margin: 5% 0 10% 25%;
+    right: 25px;
+  }
+  .chat-bubble--user::before{
+    content: "👽";
+    font-size: 20px;
+    background: gray;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right:-32px;
+    top: 15px;
+  }
+  
+  .chat-bubble--user:active {
+    opacity: 1;
+  }
+  
+  .chat-bubble--bot {
+    position: relative;
+    font-family: var(--message-font);
+    background: var(--bot-message-color);
+    padding: 5%;
+    max-width: 70%;
+    word-wrap: break-word;
+    opacity: 0.8;
+    border-radius: 10% 10% 10% 0 / 50% 50% 50% 0;
+    padding: 5%;
+    margin: 5% 0 10% 15%;
+  }
+  
+  .chat-bubble--bot::before {
+    content: "🤖";
+    font-size: 20px;
+    background: gray;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: -32px;
+    top: 0px;
+  }
+  
+  .chat-bubble--bot:active {
+    opacity: 1;
+  }
+  
+  .time-stamp--left {
+    position: absolute;
+    font-size: 12px;
+    left: 0;
+    bottom: -20px;
+  }
+  
+  .time-stamp--right {
+    position: absolute;
+    font-size: 12px;
+    right: 0;
+    bottom: -20px;
+  }
+  
+  .new-message {
+    animation: new-message 1s;
+  }
+  
+  .hidden {
+    visibility: hidden;
+  }
+  
+  @keyframes new-message {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }

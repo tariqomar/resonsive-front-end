@@ -1,0 +1,120 @@
+
+.container-food {
+    /* height: 100vh;
+    width: 100vw; */
+    /* display: flex; */
+    align-items: center;
+
+    justify-content: center;
+    width: 200px;
+    height: 380px;
+    margin-left: 50px;
+    /* margin-top: 5px; */
+    position: relative;
+
+  }
+  #recepe-text-footer{
+    color: red;
+  }
+  #ingerident{
+    color: #fff;
+  }
+ 
+  
+  .card-food {
+    height: 390px;
+    width: 300px;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    box-shadow: 0 90px 50px -80px #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://thedinnerbell.recipes/wp-content/uploads/2020/02/Sour-Cream-Waffles-2.jpg") center center no-repeat;
+    background-size: 300px;
+  }
+  .card-food:hover {
+    background: url("https://thedinnerbell.recipes/wp-content/uploads/2020/02/Sour-Cream-Waffles-2.jpg") left center no-repeat;
+    background-size: 600px;
+  }
+  .card-food:hover h2 {
+    opacity: 1;
+  }
+ /* .receipe-food-paragraph:hover {
+    opacity: 1;
+  }
+  */
+  .card-food:hover .fa {
+    opacity: 1;
+  }
+ 
+
+ 
+  .card-outline-food {
+    height: 375px;
+    width: 285px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 0.8s;
+    position: relative;
+  }
+  .card-outline-food:hover {
+    border: 1px solid white;
+  }
+  
+  .container-food .fa {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .container-food h2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+   /* .receipe-food-paragraph {
+    opacity: 0;
+    transition: opacity 1s;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 20px;
+  } */
+ 
+  .icons-food {
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .container-crousle-new4{
+   margin-top: 20px;
+   margin-left: -10px;
+   width: 380px;
+   /* height: 980px; */
+  }
+
+.container-crousle-new3{
+width: 380px;
+margin-left: -10px;
+}
+.crousle-background-stand{
+  width: 320px;
+  height: 400px;
+  margin-left: 20px;
+  margin-top: 10px;
+  position: absolute;
+  text-shadow: -1px 0 1px #684da3, 1px 0 1px rgb(255, 255, 255); 
+  box-shadow:-1px 0 1px #e1e1eb, 1px 0 1px rgb(255, 255, 255); 
+  box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+}
+
+

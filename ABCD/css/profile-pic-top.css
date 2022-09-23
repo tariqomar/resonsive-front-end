@@ -1,0 +1,144 @@
+
+.profile-management {
+    position: relative;
+    /* box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2); */
+    
+  }
+  
+  .profile-img {
+    margin: 10px;
+    width: 55px;
+    height: 55px;
+    /* border: solid rgba(200, 200, 200, 1) 1px; */
+    border-radius: 100%;
+    padding: 2px;
+    /* text-shadow: -1px 0 1px #684da3, 1px 0 1px rgb(255, 255, 255);  */
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+   
+  }
+  #profile-image-bigger{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    margin-left: -20px;
+    /* margin-top: 20px; */
+    position: relative;
+  
+  }
+  
+  .profile-img, h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1em;
+  }
+  #pen-container-name{
+    margin-top: -15px;
+  }
+  #food-cont-name{
+   margin-bottom: 30px;
+   /* position: relative; */
+  }
+  #login-time-name{
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.5em;
+    margin-left: 80px;
+    margin-top: -30px;
+  }
+  #login-time-name-top{
+    /* position: absolute; */
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    font-size: 0.5em;
+    margin-top: 45px;
+    margin-left: -38px;
+    position: absolute;
+   
+    
+  }
+  #login-time-name-middle1{
+    font-size: 0.5em;
+    margin-top: 45px;
+    margin-left: -53px;
+    position: absolute;
+   
+  }
+  #login-time-name-middle2{
+    font-size: 0.5em;
+   margin-top: 40px;
+    margin-left: -13px;
+    position: absolute;
+  }
+  #login-time-name-middle3{
+    font-size: 0.5em;
+    margin-top: 35px;
+    margin-left: -112px;
+    position: absolute;
+  }
+
+#login-time-name-middle4{
+  font-size: 0.5em;
+  margin-top: 30px;
+  margin-left: -32px;
+ 
+}
+ #login-time-name-story{
+  /* font-size: 0.5em; */
+  /* margin-top: 100px; */
+ 
+  position: relative;
+  text-align: center;
+  color: gainsboro;
+  background: #e1e1eb;
+  /* text-shadow: -1px 0 1px #000000, 1px 0 1px rgb(255, 255, 255);  */
+  /* box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255);  */
+  /* box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712); */
+  
+  
+ 
+}
+#login-time-online-friends{
+  text-align: center;
+  font-size: 10px;
+  margin-top: 30px;
+  margin-left: -255px;
+  position: absolute;
+  background-color: transparent;
+}
+  .i-more {
+    /* font-size: 25px; */
+    color: red;
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    border-radius: 100%;
+    box-shadow: inset 3px 3px 7px rgba(136, 165, 191, 0.48), inset -3px -3px 7px #FFFFFF;
+    transition: 0.2s;
+  }
+  .head-link {
+    color: #069;
+    cursor: pointer;
+  }
+  
+  .tooltip {
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    width: 400px;
+    height: 400px;
+  }
+  #last-profile-pic{
+    width :75px;
+    height: 75px;
+  }
+  #last-profile-pic-continer{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: -30px;
+    position: relative;
+  }

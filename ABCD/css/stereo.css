@@ -1,0 +1,131 @@
+
+  #k:after, #k:before, .wrapper-music:before,
+  .wrapper-music:after {
+    content: "";
+    display: block;
+    position: absolute;
+    /* background-color:lavender;   */
+    /* color for the middle make it like camera ,above */
+    
+  }
+  
+  #y:after, #y:before, #wrapper-music {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+   
+   
+  }
+ 
+
+  #wrapper-music {
+    position: absolute;
+    width: 220px;
+    height: 130px;
+    margin-right: 175px;
+    /* margin-top: -25px; */
+    top: 1870px;
+    
+   
+  }
+  /* circile   */
+  #t {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    
+    width: inherit;
+    height: inherit;
+    border-radius: 24px;
+    /* change the background color  */
+    background: inherit;
+    box-shadow: 41px 25px 82px #c9c9c7, -41px -25px 82px #fffffd;
+  }
+  #t:before, #t:after {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    bottom: 70px;
+    box-shadow: inset 1px 1px 2px 0 rgba(255, 255, 255, 0.8), 4px 4px 10px #b6b6b5, -4px -4px 10px #ffffff;
+    background: linear-gradient(145deg, #f70808, #f4f4f2);
+  }
+  #t:before {
+    right: 50px;
+    bottom: 36px;
+  }
+  #t:after {
+    right: 10px;
+    bottom: 35px;
+  }
+  
+  #y {
+    position: absolute;
+    bottom: 22px;
+    left: 30px;
+    width: 107px;
+    height: 107px;
+    border-radius: 50%;
+    background: #EAEAE8;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8), 5px 5px 16px #bebec0, -5px -5px 16px #ffffff;
+  }
+  #y:before {
+    width: 76px;
+    height: 76px;
+    border-radius: inherit;
+    background-image: radial-gradient(#848793 20%, transparent 40%);
+    background-position: 2.5px 2.5px;
+    background-size: 9px 9px;
+    transform: rotate(45deg);
+  }
+  #y:after {
+    width: 78px;
+    height: 78px;
+    border-radius: inherit;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.15), inset -4px -4px 2px rgba(255, 255, 255, 0.6);
+  }
+  /* the pluse  */
+  #k {
+    width: 34px;
+    height: 10px;
+    position: absolute;
+    bottom: 90px;
+    right: 28px;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 2px 0 #4c50d6, 4px 4px 10px #b6b6b5, -4px -4px 10px #ffffff;
+  }
+  /* middle in the plus vertical */
+  #k:before {
+    width: 10px;
+    height: 34px;
+    left: 12px;
+    top: -13px;
+    border-radius: inherit;
+    background: #000000;
+    box-shadow: inherit;
+  }
+  #k:after {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: #000000;
+    
+  }
+  /* the minse  */
+  #h {
+    width: 30px;
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 89px;
+    right: -10px;
+    box-shadow: inset 1px 1px 2px 0 rgba(255, 255, 255, 0.8), 4px 4px 10px #b6b6b5, -4px -4px 10px #ffffff;
+    background: rgba(77, 80, 81, 0.381);
+  }
+  @media screen and (max-width:414px){
+    #wrapper-music  {
+          display: none;
+      }
+  
+  }

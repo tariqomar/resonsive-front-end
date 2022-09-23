@@ -1,0 +1,189 @@
+ 
+  .neo-text {
+    color: #4b70e2;
+    font-size: 8em;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: var(--brShadow), var(--tlShadow);
+    position: relative;
+    margin: 0;
+    font-family: sans-serif;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #34334c; */
+    --brShadow: -6px 6px 15px rgba(0,0,0,0.5);
+    --tlShadow: 6px -6px 15px rgba(255,255,255,0.8);
+    padding: 185px;
+    margin-top: 20px;
+  }
+  
+  .neo-text::before {
+    left: 0;
+    width: 100px;
+    height: 100px;
+    top: -150px;
+    z-index: 10;
+    box-shadow: inset var(--brShadow), inset var(--tlShadow);
+  }
+  .neo-text::after {
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    top: -200px;
+    box-shadow: var(--brShadow), var(--tlShadow);
+  }
+  /* =======================================================================  */
+  .neo-text-hey {
+    color: #4b70e2;
+    font-size: 8em;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: var(--brShadow), var(--tlShadow);
+    position: absolute;
+    margin: 0;
+    font-family: sans-serif;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #34334c; */
+    --brShadow: -6px 6px 15px rgba(0,0,0,0.5);
+    --tlShadow: 6px -6px 15px rgba(255,255,255,0.8);
+    padding: 185px;
+    margin-top: 530px;
+    margin-left:-50px;
+  }
+  
+  .neo-text-hey::before {
+    left: 0;
+    width: 100px;
+    height: 100px;
+    top: -150px;
+    z-index: 10;
+    box-shadow: inset var(--brShadow), inset var(--tlShadow);
+  }
+  .neo-text-hey::after {
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    top: -200px;
+    box-shadow: var(--brShadow), var(--tlShadow);
+  }
+  /* ====================================================================================  */
+  .neo-text-you {
+    color: #4b70e2;
+    font-size: 8em;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: var(--brShadow), var(--tlShadow);
+    position: absolute;
+    margin: 0;
+    font-family: sans-serif;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #34334c; */
+    --brShadow: -6px 6px 15px rgba(0,0,0,0.5);
+    --tlShadow: 6px -6px 15px rgba(255,255,255,0.8);
+    padding: 185px;
+    margin-top: 530px;
+    margin-left:680px;
+  }
+  
+  .neo-text-you::before {
+    left: 0;
+    width: 100px;
+    height: 100px;
+    top: -150px;
+    z-index: 10;
+    box-shadow: inset var(--brShadow), inset var(--tlShadow);
+  }
+  .neo-text-you::after {
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    top: -200px;
+    box-shadow: var(--brShadow), var(--tlShadow);
+  }
+  /* ====================================================  */
+  .neo-text-are {
+    color: #4b70e2;
+    font-size: 8em;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: var(--brShadow), var(--tlShadow);
+    position: absolute;
+    margin: 0;
+    font-family: sans-serif;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #34334c; */
+    --brShadow: -6px 6px 15px rgba(0,0,0,0.5);
+    --tlShadow: 6px -6px 15px rgba(255,255,255,0.8);
+    padding: 185px;
+    margin-top: 950px;
+    margin-left:-50px;
+  }
+  
+  .neo-text-are::before {
+    left: 0;
+    width: 100px;
+    height: 100px;
+    top: -150px;
+    z-index: 10;
+    box-shadow: inset var(--brShadow), inset var(--tlShadow);
+  }
+  .neo-text-are::after {
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    top: -200px;
+    box-shadow: var(--brShadow), var(--tlShadow);
+  }
+   /* ====================================================  */
+   .neo-text-awsome {
+    color: #4b70e2;
+    font-size: 8em;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: var(--brShadow), var(--tlShadow);
+    position: absolute;
+    margin: 0;
+    font-family: sans-serif;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #34334c; */
+    --brShadow: -6px 6px 15px rgba(0,0,0,0.5);
+    --tlShadow: 6px -6px 15px rgba(255,255,255,0.8);
+    padding: 185px;
+    margin-top: 950px;
+    margin-left:680px;
+  }
+  
+  .neo-text-awsome::before {
+    left: 0;
+    width: 100px;
+    height: 100px;
+    top: -150px;
+    z-index: 10;
+    box-shadow: inset var(--brShadow), inset var(--tlShadow);
+  }
+  .neo-text-awsome::after {
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    top: -200px;
+    box-shadow: var(--brShadow), var(--tlShadow);
+  }

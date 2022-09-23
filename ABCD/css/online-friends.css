@@ -1,0 +1,338 @@
+ 
+  .interface {
+    /* background: #f7fdfe; */
+    border-radius: 15px;
+    width: 345px;
+    height: 666px;
+    font-family: "Open Sans", sans-serif;
+    /* margin: 0px auto; */
+    left:850px;
+    top: 610px;
+    background: #e1e1eb;
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+
+    
+    /* box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712); */
+    /*  */
+    /* box-shadow:-1px 0 1px #e1e1eb, 1px 0 1px rgb(255, 255, 255);  */
+    /* box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712); */
+    /* border: 1px solid  rgba(16 18 27 / 40%); 
+    background-color:  rgba(16 18 27 / 40%); 
+    background-color:  rgb(146 151 179 / 13%); */
+    /* opacity: 0.2; */
+  }
+
+  .interface:hover{
+    /* opacity: 1; */
+  }
+  .interface .header-online-friends {
+    padding: 20px 20px 0px 20px;
+    /* change the color of friend and the pluse  */
+    color: #31344b;
+    /* background: linear-gradient(45deg, #1a9cb0, #40c2da); */
+    border-radius: 15px 15px 0px 0px;
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    /* border: 1px solid  rgba(16 18 27 / 40%); 
+    background-color:  rgba(16 18 27 / 40%); 
+    background-color:  rgb(146 151 179 / 13%);  */
+    
+  }
+  .header-online-friends h1{
+    /* background: #e1e1eb; */
+    
+    /* box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255);  */
+  }
+  .interface .header-online-friends .avatar {
+    width: 65px;
+    height: 65px;
+    float: left;
+    
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    /* box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712); */
+  }
+  .interface .header-online-friends .avatar img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    /* box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712); */
+  }
+  .interface .header-online-friends h1 {
+    float: left;
+    /* margin-left: -30px; */
+    line-height: 40px;
+    text-align: center;
+    width: calc(100% - 120px);
+    font-size: 20px;
+    font-weight: 400;
+    
+  }
+  /* to change the pluse sign  */
+  .interface .header-online-friends span {
+    height: 70px;
+    /* line-height: 70px; */
+    width: 10px;
+    display: block;
+    float: right;
+    cursor: pointer;
+    
+  }
+  /* th pluse sign size  */
+  .interface .header-online-friends span i {
+    font-size: 15px;
+  }
+  .interface .header-online-friends .search-online-friends {
+    width: 100%;
+    display: block;
+    clear: both;
+    padding: 15px 0;
+    
+    
+  }
+  .search-online-friend-place-holder-color::placeholder{
+    color: grey;
+  }
+  .interface .header-online-friends .search-online-friends input {
+    height: 35px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-indent: 20px;
+    background-color: inherit;
+    background: #dbdbf7;
+    
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    border: 1px solid  rgba(16 18 27 / 40%); 
+    background-color:  rgba(16 18 27 / 40%); 
+    background-color:  rgb(146 151 179 / 13%);
+    /* box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712); */
+  }
+  .interface .container-online-friends {
+    padding: 20px;
+    color: #000;
+  }
+  .interface .container-online-friends .online-friends h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    background: #e1e1eb;
+  }
+  .interface .container-online-friends .online-friends ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+    
+    /* change the color of names insid the online frineds container */
+  }
+  .interface .container-online-friends .online-friends ul li {
+    float: left;
+    margin-right: 2%;
+    width: 18%;
+    height: 100px;
+    text-align: center;
+    padding-top: 15px;
+    /* to change the color of the online frineds */
+    /* background: #ffffff; */
+    /* box-shadow: 1px 1px 3px #000; */
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); */
+    
+    /* box-shadow:-1px 0 1px #e1e1eb, 1px 0 1px rgb(255, 255, 255);  */
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+    cursor: pointer;
+
+    border: 1px solid  rgba(16 18 27 / 40%); 
+    background-color:  rgba(16 18 27 / 40%); 
+    background-color:  rgb(146 151 179 / 13%);
+    
+  }
+  .interface .container-online-friends .online-friends ul li .avatar {
+    width: 35px;
+    height: 35px;
+    margin: 0px auto;
+    
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+    
+    
+  }
+  .interface .container-online-friends .online-friends ul li .avatar img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+    
+  }
+  .interface .container-online-friends .online-friends ul li span {
+    padding-top: 20px;
+    width: 100%;
+    /* change the font size inside online friends  */
+    font-size: 12px;
+    display: block;
+    
+    
+  }
+  .interface .container-online-friends .recent-conversations {
+    display: block;
+    clear: both;
+    /* padding-top: 10px; */
+    margin-top: 150px;
+    
+  }
+  .interface .container-online-friends .recent-conversations h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+   
+    margin-top: 15px;
+    position:absolute;
+    background: #e1e1eb;
+  } 
+  .interface .container-online-friends .recent-conversations ul {
+    list-style: none;
+    /* change the postion of the imges down  */
+    
+    margin: -16px;
+    margin-top: 10px;
+    
+  
+  }
+  .interface .container-online-friends .recent-conversations ul li {
+    width: 100%;
+    display: block;
+    height: 50px;
+    padding: 50px 10px 25px;
+    cursor: pointer;
+    font-size: smaller;
+    
+    /*  */
+    /* box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255);  */
+    /* box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712); */
+    
+  }
+  .interface .container-online-friends .recent-conversations ul li .avatar {
+    height: 40px;
+    width: 40px;
+    /* margin-top: -0px; */
+  
+    float: left;
+    
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+   
+  }
+  .interface .container-online-friends .recent-conversations ul li .avatar img {
+    width: 100%;
+    height: auto;
+    
+    border-radius: 50%;
+    
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255); 
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+  }
+  .interface .container-online-friends .recent-conversations ul li h3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 13px;
+    padding-left: 10px;
+    display: flex;
+    /* margin-top: -10px; */
+    /* change the color of the names down  */
+    /* color: rgba(240, 240, 240, 0.5); */
+    /* background: -webkit-linear-gradient(top, #666, #666); */
+    /* box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712); */
+    
+  }
+
+ 
+  .interface .container-online-friends .recent-conversations ul li span {
+    font-weight: 600;
+    color: gray;
+    
+  }
+  .interface .container-online-friends .recent-conversations ul li span.message {
+    font-size: 10px;
+    padding-left: 10px;
+    /* 
+    box-shadow:-1px 0 1px #ffffff, 1px 0 1px rgb(255, 255, 255);  */
+    /* box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712); */
+    
+   
+  }
+  .interface .container-online-friends .recent-conversations ul li span.time {
+    float: right;
+    font-size: 12px;
+    padding-top: 4px;
+    color: #000;
+    
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+  }
+  .avatar .bullet {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    /* border: 2px solid #fff; */
+    background: blue;
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+  }
+  .avatar.green .bullet {
+    background: #0bf23d;
+  }
+  .avatar.red .bullet {
+    background: #e35111;
+  }
+  .avatar.orange .bullet {
+    background: blue;
+  }
+  /* @media screen and (max-width:414px){
+    .interface {
+          
+          position: absolute;
+          margin-left: 430px;
+          margin-top: -120px;
+      }
+    } */
+
+    #carouselExampleIndicators-5 {
+      margin-left: -20px;
+      position:absolute;
+      width: 360px;
+      height: 160px;
+      /* margin-top: 20px; */
+      /* margin-bottom: -80px; */
+    }
+    #online-friend-crousle-top{
+      width: 280px;
+      height: 160px;
+      margin-left: 42px;
+      /* position: relative; */
+      margin-top: 10px;
+      /* position: relative; */
+    }
+    .onlin-firnds-header-title{
+      font-size: 15px;
+      margin-top: -30px;
+      /* position: absolute; */
+      margin-left: 30px;
+    }
+    #firnd-list-crousle{
+      height: 120px;
+      color: #000;
+    }

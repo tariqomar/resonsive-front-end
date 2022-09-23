@@ -1,0 +1,75 @@
+.engrave {
+    border-radius: 100%; 
+    background-color:  #ecf0f3;
+    box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+  }
+  .button-like {
+    outline: none;
+    cursor: pointer;
+    border: 0px;
+    padding: 6px 6px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -100px;
+    /* margin-bottom: -100px; */
+    transition: all ease-in-out 1s;
+  }
+  .color1 {
+    color: #4b70e2;
+  }
+  /* .card {
+    padding: 20px;
+    margin-bottom: 20px;
+  } */
+  .container-like{
+    margin-left: 10px;
+    margin-top: -25px;
+   
+  }
+  #continer-like-for-music{
+   margin-top: -60px;
+  }
+  #like-for-quote{
+  margin: 0px;
+    /* position: absolute; */
+  }
+  #food-like-share-comment-container{
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  #heart-like-button{
+    margin-left: -20px;
+  }
+  #comment-like-button{
+    margin-left: -5px;
+  }
+  #share-like-button{
+    margin-left: -10px;
+  }
+  #first-container-like{
+    margin-left: 19px;
+  }
+  #sconed-container-like{
+    margin-left: 19px;
+  }
+  #middles-container-like{
+    margin-left: 19px;
+    
+  }
+  #like-button-skitch{
+    margin-left: 50px;
+    
+    
+  }
+  .btn_container .la-heart{
+    color: red;
+  }
+  .btn_container .la-comment{
+    color: red;
+  }
+  .btn_container .fa-share{
+    color: red;
+  }
+  .btn_container .fa-bookmark{
+    color: black;
+  }
